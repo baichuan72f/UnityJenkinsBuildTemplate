@@ -1,8 +1,8 @@
 import os
 import shutil
 def CopyTemplate(arg):
-    source_path = os.path.abspath("D:/Project/BuildTemplate/Template/Editor")
-    target_path = arg['WORKSPACE'] + '/Assets/Editor/Build'
+    source_path = os.path.abspath("D:/Project/BuildTemplate/Template/Assets/Editor/BuildTemplate")
+    target_path = arg['WORKSPACE'] + '/Assets/Editor/BuildTemplate'
     # print(arg)
     print(arg['WORKSPACE'])
     if not os.path.exists(target_path):
